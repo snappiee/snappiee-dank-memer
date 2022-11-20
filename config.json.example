@@ -1,13 +1,10 @@
 {
-	"isBatchTokenFile": true,
+	"isBatchTokenFile": false,
 	"tokens": [
+
 		{
-			"token": "token1",
-			"channelId": "69420"
-		},
-		{
-			"token": "token2",
-			"channelId": "696969"
+			"token": "**",
+			"channelId": "**"
 		}
 	],
 	"commands": [
@@ -26,14 +23,22 @@
 		"air"
 	],
 
-	"webhook": "webhookurl",
+	"webhook": "web",
 	"autoDeposit": true,
 	"autoSell": true,
 	"autoGift": false,
 	"autoBuy":true,
-	"mainAccount": "main account token",
+	"autoUse":[
+		"Apple",
+		"Lucky Horseshoe",
+                "Pizza"
+	],
+	"useDarkendTrivia": true,
+	"dontLogUselessThings": false,
+	
+	"mainAccount": "***",
 	"mainId": {
-		"channel": "919831970001858610",
+		"channel": "***",
 		"itemToUse": ["Adventure Voucher"],
 		"adventureVoucherPrefer": "Space"
 	},
@@ -41,7 +46,7 @@
 	"serverEventsDonateMode": false,
 	"serverEventsDonatePayout":true,
 
-	"minLifeSaver": 10,
+	"minLifeSaver": 5,
 
 	"cooldowns": {
 		"market": {
@@ -57,8 +62,8 @@
 			"maxDelay": 1500
 		},
 		"commandInterval": {
-			"minDelay": 1000,
-			"maxDelay": 2000
+			"minDelay": 2500,
+			"maxDelay": 3000
 		},
 		"shortBreak": {
 			"minDelay": 30000,
@@ -77,8 +82,8 @@
 			"maxDelay": 5000
 		},
 		"checkLifeSaver": {
-			"minDelay": 300000,
-			"maxDelay": 600000
+			"minDelay": 200000,
+			"maxDelay": 400000
 		}
 	}
 }
